@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes" thread-count="3" name="Test Suite">
+  <test name="Login Test">
+    <classes>
+      <class name="testcases.LoginTest"/>
+       <class name="testcases.LoginTest"/>
+      <class name="testcases.PIMTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="PIM Test">
+    <classes>
+      <!-- <class name="testcases.LoginTest"/> -->
+      <class name="testcases.PIMTest"/> 
+      <class name="testcases.PIMTest"/> 
+      <class name="testcases.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
